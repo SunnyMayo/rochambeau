@@ -1,4 +1,4 @@
-# readme file for short rochambeau project
+# Rochambeau mini-project
 
 This project hosts a blank rochambeau.html page which links to styles.js, and allows the user to play a best of 5 game of rochambeau against a computer.
 
