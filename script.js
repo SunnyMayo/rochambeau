@@ -59,4 +59,21 @@ function playRound(humanChoice, compChoice) {
             humanScore++;
         }
     }
+    return;
+}
+
+function playGame() {
+    for (let x = 0; x < 5; x++) {
+        playRound(getHumanChoice(), getCompChoice());
+    }
+
+    if (humanScore > compScore) {
+        console.log("Congrats, you won this game!");
+    }
+    else {
+        console.log("Unlucky, the computer won this game!");
+    }
+    humanScore = 0;
+    compScore = 0;
+    return;
 }
