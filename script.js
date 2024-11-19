@@ -10,3 +10,8 @@ function getCompChoice() {
         return "scissors";
     }
 }
+
+function getHumanChoice() {
+    let choice = prompt("Make a throw (rock, paper, or scissors): ").toLowerCase();
+    return choice;
+}
